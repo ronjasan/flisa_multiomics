@@ -1,6 +1,4 @@
 library(tidyverse)
-library(rstatix)
-library(DT)
 
 # Load the data
 lfq <- read_tsv("Proteomics/data/FS11_combined_protein.tsv") %>%
@@ -17,7 +15,7 @@ lfq <- read_tsv("Proteomics/data/FS11_combined_protein.tsv") %>%
 ko_ids <- read_tsv("Proteomics/data/MAG107_KO_IDs.tsv") %>%
     right_join(lfq, by = "protein")
 
-
+# Find KEGG pathways
 kegg <- read_tsv("KEGG_pathways.tsv") %>%
     right_join(ko_ids, by = "KO") %>%
     select(protein, annotation, gene, pathway, KO, where(is.numeric)) %>%
