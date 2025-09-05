@@ -1,4 +1,4 @@
-KO	Name	Gene	Pathway
+KO	name	gene	pathway
 K00632	acetyl-CoA acyltransferase [EC:2.3.1.16]	fadA	fatty acid
 K01825	3-hydroxyacyl-CoA dehydrogenase / enoyl-CoA hydratase / 3-hydroxybutyryl-CoA epimerase / enoyl-CoA isomerase [EC:1.1.1.35 4.2.1.17 5.1.2.3 5.3.3.8]	fadB	fatty acid
 K01782	3-hydroxyacyl-CoA dehydrogenase / enoyl-CoA hydratase / 3-hydroxybutyryl-CoA epimerase [EC:1.1.1.35 4.2.1.17 5.1.2.3]	fadJ	fatty acid

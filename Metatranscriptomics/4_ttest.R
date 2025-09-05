@@ -2,7 +2,7 @@ library(tidyverse)
 library(rstatix)
 samples <- c("S1C30", "S2C30", "S1C40", "S2C40", "S1PELW", "S2PELW")
 
-# Read and concatenate the .tsv files
+# Read and concatenate the kallisto .tsv files
 for (sample in samples) {
     directories <- list.dirs(path = paste0("/glittertind/home/ronjasan/spaceface/flisa/RNAseq/kallisto/kallisto_results/", sample, "/."), recursive = FALSE)
     all_kallisto <- purrr::map_df(directories, function(dir) {
@@ -18,7 +18,6 @@ for (sample in samples) {
         pivot_wider(names_from = directory, values_from = tpm) %>%
         rename(transcript_id = target_id) %>%
         select(-contains("Glc"), contains("Glc"))
-    assign(paste0(sample, "_kallisto"), kallisto)
     write_tsv(kallisto, paste0("Metatranscriptomics/data/kallisto/", sample, "_kallisto.tsv"))
 }
 
@@ -35,12 +34,12 @@ for (sample in samples) {
         mutate(across(where(is.numeric), ~ log2(.))) %>%
         mutate(across(where(is.numeric), ~ impute_normal((.)))) %>%
         mutate_at(vars(c(2:ncol(.))), ~ as.numeric(.))
-    assign(paste0(sample, "_imputed"), imputed)
+    write_tsv(imputed, paste0("Metatranscriptomics/data/imputed/", sample, "_imputed.tsv"))
 }
 
 # Perform t-tests on the imputed data
 for (sample in samples) {
-    imputed <- get(paste0(sample, "_imputed"))
+    imputed <- read_tsv(paste0("Metatranscriptomics/data/imputed/", sample, "_imputed.tsv"))
     ttest <- imputed %>%
         pivot_longer(cols = -transcript_id, names_to = "Sample", values_to = "tpm") %>%
         mutate(Site = str_extract(Sample, "S[0-9]+")) %>%
@@ -57,6 +56,5 @@ for (sample in samples) {
             p.adjust.method = "fdr",
             paired = TRUE ## Adjust as needed based on samples to be compared
         )
-
     write_tsv(ttest, paste0("Metatranscriptomics/data/ttest/", sample, "_ttest.tsv"))
 }
