@@ -1,0 +1,42 @@
+MAG	abundance	domain	phylum	class	order	family	genus	species	completeness	contamination	community	MIMAG
+MAG201	0.43090874	Unclassified Bacteria	NA	NA	NA	NA	NA	NA	9.8	0.02	S2PELW	Low quality
+MAG202	0.2948943	Unclassified Bacteria	NA	NA	NA	NA	NA	NA	13.63	0.13	S2PELW	Low quality
+MAG203	0.4179893	Bacteria	Pseudomonadota	Alphaproteobacteria	Rhizobiales	Rhizobiaceae	Pseudaminobacter	NA	67.1	5.45	S2PELW	Medium quality
+MAG204	0.6482256	Bacteria	Actinomycetota	Actinomycetia	Mycobacteriales	Antricoccaceae	Cumulibacter	NA	93.73	0.56	S2PELW	High quality
+MAG205	3.4891136	Bacteria	Actinomycetota	Actinomycetia	Mycobacteriales	Mycobacteriaceae	Gordonia	NA	100	0.1	S2PELW	High quality
+MAG206	1.1976258	Bacteria	Pseudomonadota	Gammaproteobacteria	Pseudomonadales	Pseudomonadaceae	Pseudomonas	Pseudomonas fluorescens	99.54	8.92	S2PELW	Medium quality
+MAG207	0.79410315	Bacteria	Pseudomonadota	Gammaproteobacteria	Xanthomonadales	Xanthomonadaceae	Stenotrophomonas	NA	99.99	0.79	S2PELW	High quality
+MAG208	0.23981275	Unclassified Bacteria	NA	NA	NA	NA	NA	NA	3.94	0.01	S2PELW	Low quality
+MAG209	0.90799326	Bacteria	Pseudomonadota	Alphaproteobacteria	Caulobacterales	Caulobacteraceae	Phenylobacterium	NA	94.94	3.3	S2PELW	High quality
+MAG210	0.56893003	Bacteria	Pseudomonadota	Gammaproteobacteria	Burkholderiales	Burkholderiaceae	NA	NA	83.04	2.89	S2PELW	Medium quality
+MAG211	0.30685315	Unclassified Bacteria	NA	NA	NA	NA	NA	NA	11.32	0.01	S2PELW	Low quality
+MAG212	1.2155178	Bacteria	Pseudomonadota	Gammaproteobacteria	Burkholderiales	Burkholderiaceae	Variovorax	NA	100	1.13	S2PELW	High quality
+MAG213	10.098087	Bacteria	Actinomycetota	Actinomycetia	Actinomycetales	Micrococcaceae	Paenarthrobacter	Paenarthrobacter nicotinovorans	100	0.1	S2PELW	High quality
+MAG214	0.25308776	Unclassified	NA	NA	NA	NA	NA	NA	2.76	0	S2PELW	Low quality
+MAG215	8.000988	Bacteria	Bacteroidota	Bacteroidia	Flavobacteriales	Weeksellaceae	Kaistella	Kaistella soli	99.86	0.7	S2PELW	High quality
+MAG216	0.6224251	Unclassified Bacteria	NA	NA	NA	NA	NA	NA	49.69	12.11	S2PELW	Low quality
+MAG217	0.3572742	Unclassified Bacteria	NA	NA	NA	NA	NA	NA	7.37	0	S2PELW	Low quality
+MAG218	1.8404243	Bacteria	Pseudomonadota	Gammaproteobacteria	Pseudomonadales	Pseudomonadaceae	Pseudomonas	NA	89.45	2.16	S2PELW	Medium quality
+MAG219	34.663464	Bacteria	Pseudomonadota	Gammaproteobacteria	Pseudomonadales	Pseudomonadaceae	Pseudomonas	Pseudomonas sp003050835	99.72	5.17	S2PELW	Medium quality
+MAG220	0.59643537	Bacteria	Pseudomonadota	Gammaproteobacteria	Pseudomonadales	Pseudomonadaceae	Pseudomonas	NA	53.62	7.39	S2PELW	Medium quality
+MAG221	0.40047693	Unclassified Bacteria	NA	NA	NA	NA	NA	NA	11.37	1.76	S2PELW	Low quality
+MAG222	0.270974	Unclassified Bacteria	NA	NA	NA	NA	NA	NA	9.37	0.1	S2PELW	Low quality
+MAG223	0.3395324	Bacteria	Pseudomonadota	Alphaproteobacteria	Rhizobiales	Rhizobiaceae	Aquamicrobium	NA	51.52	6.06	S2PELW	Medium quality
+MAG224	1.8742554	Bacteria	Actinomycetota	Actinomycetia	Mycobacteriales	Mycobacteriaceae	Rhodococcus	Rhodococcus erythropolis	100	0.32	S2PELW	High quality
+MAG225	0.67500985	Bacteria	Bacteroidota	Bacteroidia	Flavobacteriales	Flavobacteriaceae	Flavobacterium	NA	95.71	0.15	S2PELW	High quality
+MAG226	0.7293327	Bacteria	Pseudomonadota	Gammaproteobacteria	Burkholderiales	Burkholderiaceae	Variovorax	Variovorax sp014170375	71.28	1.2	S2PELW	Medium quality
+MAG227	0.28749284	Bacteria	Pseudomonadota	Gammaproteobacteria	Burkholderiales	Burkholderiaceae	NA	NA	17.4	0.24	S2PELW	Low quality
+MAG228	0.3126373	Unclassified Bacteria	NA	NA	NA	NA	NA	NA	10.91	0	S2PELW	Low quality
+MAG229	0.48795375	Unclassified Bacteria	NA	NA	NA	NA	NA	NA	3.82	0	S2PELW	Low quality
+MAG230	0.5990443	Unclassified Bacteria	NA	NA	NA	NA	NA	NA	28.23	0.18	S2PELW	Low quality
+MAG231	0.38106608	Unclassified Bacteria	NA	NA	NA	NA	NA	NA	4.62	0	S2PELW	Low quality
+MAG232	0.5058319	Unclassified Bacteria	NA	NA	NA	NA	NA	NA	6.88	0.3	S2PELW	Low quality
+MAG233	3.225383	Unclassified Bacteria	NA	NA	NA	NA	NA	NA	31.78	2.71	S2PELW	Low quality
+MAG234	1.410407	Bacteria	Pseudomonadota	Gammaproteobacteria	Pseudomonadales	Pseudomonadaceae	Pseudomonas	Pseudomonas veronii	100	0.21	S2PELW	High quality
+MAG235	3.7130125	Unclassified	NA	NA	NA	NA	NA	NA	9.64	0.03	S2PELW	Low quality
+MAG236	0.97041225	Bacteria	Pseudomonadota	Gammaproteobacteria	Burkholderiales	Burkholderiaceae	Cupriavidus	Cupriavidus basilensis	77.54	0	S2PELW	Medium quality
+MAG237	3.5240462	Unclassified Bacteria	NA	NA	NA	NA	NA	NA	8.4	0.02	S2PELW	Low quality
+MAG238	8.331918	Bacteria	Pseudomonadota	Gammaproteobacteria	Pseudomonadales	Pseudomonadaceae	Pseudomonas	Pseudomonas sp002029345	98.24	0.86	S2PELW	High quality
+MAG239	0.32099003	Bacteria	Pseudomonadota	Gammaproteobacteria	Pseudomonadales	Pseudomonadaceae	Pseudomonas	NA	35.07	1.73	S2PELW	Low quality
+MAG240	0.93129903	Bacteria	Pseudomonadota	Alphaproteobacteria	Rhizobiales	Rhizobiaceae	Pseudaminobacter	Pseudaminobacter sp900116595	95.87	3.38	S2PELW	High quality
+MAG241	0.38230914	Bacteria	Pseudomonadota	Gammaproteobacteria	Burkholderiales	Burkholderiaceae	Candidimonas	NA	54.06	1.69	S2PELW	Medium quality

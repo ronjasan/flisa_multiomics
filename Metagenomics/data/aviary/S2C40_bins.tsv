@@ -1,0 +1,50 @@
+MAG	abundance	domain	phylum	class	order	family	genus	species	completeness	contamination	community	MIMAG
+MAG24001	1.0322782	Bacteria	Pseudomonadota	Alphaproteobacteria	Rhizobiales	Beijerinckiaceae	Bosea	Bosea robiniae	99.97	2.23	S2C40	High quality
+MAG24002	0.45295423	Bacteria	Pseudomonadota	Alphaproteobacteria	Rhizobiales	Rhizobiaceae	Ensifer	NA	64.42	4.04	S2C40	Medium quality
+MAG24003	0.3338185	Bacteria	Pseudomonadota	Gammaproteobacteria	Burkholderiales	Burkholderiaceae	NA	NA	84.63	0.49	S2C40	Medium quality
+MAG24004	0.9439348	Bacteria	Actinomycetota	Actinomycetia	Actinomycetales	Microbacteriaceae	Microbacterium	NA	100	0.73	S2C40	High quality
+MAG24005	15.788385	Bacteria	Pseudomonadota	Gammaproteobacteria	Pseudomonadales	Pseudomonadaceae	Pseudomonas	Pseudomonas fluorescens	100	0.52	S2C40	High quality
+MAG24006	3.0637345	Bacteria	Bacteroidota	Bacteroidia	Flavobacteriales	Weeksellaceae	Kaistella	Kaistella soli	99.28	0	S2C40	High quality
+MAG24007	0.2733376	Bacteria	Pseudomonadota	Alphaproteobacteria	Rhizobiales	Rhizobiaceae	Mesorhizobium	NA	31.28	0.09	S2C40	Low quality
+MAG24008	0.27041262	Bacteria	Pseudomonadota	Gammaproteobacteria	Pseudomonadales	Pseudomonadaceae	Pseudomonas	Pseudomonas moorei	69	2.08	S2C40	Medium quality
+MAG24009	0.21343611	Bacteria	Pseudomonadota	Gammaproteobacteria	Burkholderiales	Burkholderiaceae	Acidovorax	NA	50.32	1.3	S2C40	Medium quality
+MAG24010	3.062882	Bacteria	Actinomycetota	Actinomycetia	Mycobacteriales	Mycobacteriaceae	Gordonia	NA	100	0.1	S2C40	High quality
+MAG24011	4.965495	Bacteria	Bacteroidota	Bacteroidia	Flavobacteriales	Flavobacteriaceae	Flavobacterium	NA	99.85	0.01	S2C40	High quality
+MAG24012	0.7870456	Bacteria	Bacteroidota	Bacteroidia	Sphingobacteriales	Sphingobacteriaceae	Pedobacter	NA	99.99	0.02	S2C40	High quality
+MAG24013	2.1498477	Bacteria	Pseudomonadota	Gammaproteobacteria	Pseudomonadales	Pseudomonadaceae	Pseudomonas	Pseudomonas veronii	99.92	0.28	S2C40	High quality
+MAG24014	15.433926	Bacteria	Pseudomonadota	Alphaproteobacteria	Rhizobiales	Rhizobiaceae	Pseudaminobacter	Pseudaminobacter sp900116595	78.01	0.33	S2C40	Medium quality
+MAG24015	0.33103982	Bacteria	Bacteroidota	Bacteroidia	Chitinophagales	Chitinophagaceae	Hanamia	NA	85.38	0.82	S2C40	Medium quality
+MAG24016	0.19830257	Unclassified Bacteria	NA	NA	NA	NA	NA	NA	24.12	6.35	S2C40	Low quality
+MAG24017	0.45707512	Unclassified Bacteria	NA	NA	NA	NA	NA	NA	11.04	0.87	S2C40	Low quality
+MAG24018	0.62071687	Bacteria	Pseudomonadota	Gammaproteobacteria	Burkholderiales	Burkholderiaceae	Achromobacter	Achromobacter kerstersii	99.99	4.46	S2C40	High quality
+MAG24019	0.39559615	Bacteria	Bacteroidota	Bacteroidia	Chitinophagales	Chitinophagaceae	Chitinophaga	NA	94.69	3.54	S2C40	High quality
+MAG24020	0.7624084	Unclassified	NA	NA	NA	NA	NA	NA	2.84	0	S2C40	Low quality
+MAG24021	5.225249	Unclassified Bacteria	NA	NA	NA	NA	NA	NA	10.56	0.71	S2C40	Low quality
+MAG24022	0.5553999	Bacteria	Pseudomonadota	Gammaproteobacteria	Pseudomonadales	Pseudomonadaceae	Pseudomonas	NA	99.5	0.23	S2C40	High quality
+MAG24023	1.0211746	Bacteria	Pseudomonadota	Alphaproteobacteria	Rhizobiales	Rhizobiaceae	Pseudaminobacter	NA	6.95	0.06	S2C40	Low quality
+MAG24024	0.1574976	Unclassified Bacteria	NA	NA	NA	NA	NA	NA	4.41	0	S2C40	Low quality
+MAG24025	0.31207833	Bacteria	Pseudomonadota	Alphaproteobacteria	Rhizobiales	Devosiaceae	NA	NA	68.97	1.64	S2C40	Medium quality
+MAG24026	1.2297168	Bacteria	Pseudomonadota	Alphaproteobacteria	Rhizobiales	Devosiaceae	Devosia	NA	99.99	0.84	S2C40	High quality
+MAG24027	0.33885738	Bacteria	Pseudomonadota	Alphaproteobacteria	Sphingomonadales	Sphingomonadaceae	Sphingopyxis	NA	75.34	2.51	S2C40	Medium quality
+MAG24028	3.4493208	Unclassified Bacteria	NA	NA	NA	NA	NA	NA	5.96	0	S2C40	Low quality
+MAG24029	1.7638417	Bacteria	Pseudomonadota	Alphaproteobacteria	Rhizobiales	Rhizobiaceae	65-79	NA	97.73	0.45	S2C40	High quality
+MAG24030	2.2826433	Bacteria	Pseudomonadota	Alphaproteobacteria	Rhizobiales	Xanthobacteraceae	Afipia	NA	99.59	0.38	S2C40	High quality
+MAG24031	0.38273442	Bacteria	Pseudomonadota	Alphaproteobacteria	Rhizobiales	Rhizobiaceae	Aminobacter	NA	32.36	1.28	S2C40	Low quality
+MAG24032	0.15797473	Unclassified Bacteria	NA	NA	NA	NA	NA	NA	4.51	0	S2C40	Low quality
+MAG24033	4.837377	Unclassified	NA	NA	NA	NA	NA	NA	4.66	0.03	S2C40	Low quality
+MAG24034	0.1778097	Unclassified	NA	NA	NA	NA	NA	NA	4.08	0	S2C40	Low quality
+MAG24035	0.3894105	Unclassified Bacteria	NA	NA	NA	NA	NA	NA	5.95	0.03	S2C40	Low quality
+MAG24036	0.33010015	Unclassified Bacteria	NA	NA	NA	NA	NA	NA	5.13	0	S2C40	Low quality
+MAG24037	1.3925903	Bacteria	Pseudomonadota	Alphaproteobacteria	Rhizobiales	Rhizobiaceae	Pseudaminobacter	NA	40.08	0.97	S2C40	Low quality
+MAG24038	0.22988947	Unclassified Bacteria	NA	NA	NA	NA	NA	NA	5.04	0	S2C40	Low quality
+MAG24039	0.41086072	Unclassified Bacteria	NA	NA	NA	NA	NA	NA	5.24	0	S2C40	Low quality
+MAG24040	4.5419207	Unclassified	NA	NA	NA	NA	NA	NA	12.82	0.09	S2C40	Low quality
+MAG24041	0.2003567	Unclassified Bacteria	NA	NA	NA	NA	NA	NA	9.36	0.06	S2C40	Low quality
+MAG24042	0.28917992	Bacteria	Pseudomonadota	Alphaproteobacteria	Caulobacterales	Caulobacteraceae	Brevundimonas	NA	37.15	1.26	S2C40	Low quality
+MAG24043	0.21905887	Unclassified Bacteria	NA	NA	NA	NA	NA	NA	9.23	0.77	S2C40	Low quality
+MAG24044	0.19486915	Unclassified Bacteria	NA	NA	NA	NA	NA	NA	6.76	0.02	S2C40	Low quality
+MAG24045	0.6625912	Unclassified Bacteria	NA	NA	NA	NA	NA	NA	9.23	0.07	S2C40	Low quality
+MAG24046	0.2839409	Bacteria	Pseudomonadota	Alphaproteobacteria	Rhizobiales	Kaistiaceae	Kaistia	NA	26.17	0.37	S2C40	Low quality
+MAG24047	0.21159723	Unclassified Bacteria	NA	NA	NA	NA	NA	NA	7.8	0.1	S2C40	Low quality
+MAG24048	0.22994745	Unclassified Bacteria	NA	NA	NA	NA	NA	NA	5.99	0	S2C40	Low quality
+MAG24049	4.4741716	Unclassified Bacteria	NA	NA	NA	NA	NA	NA	4.33	0	S2C40	Low quality
