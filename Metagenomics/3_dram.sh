@@ -2,7 +2,7 @@
 
 mamba activate dram
 
-samples=("S1C30" "S1C40" "S1PELW" "S2C30" "S2C40" "S2PELW")
+samples=("S1C30" "S1C40" "S1LMWPE" "S2C30" "S2C40" "S2LMWPE")
 
 # Rename .fna files based on the new names generated in 2_rename.R
 for sample in "${samples[@]}"; do
