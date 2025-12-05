@@ -2,7 +2,7 @@
 
 mamba activate aviary
 
-samples=("S1C30" "S1C40" "S1PELW" "S2C30" "S2C40" "S2PELW")
+samples=("S1C30" "S1C40" "S1LMWPE" "S2C30" "S2C40" "S2LMWPE")
 
 printf "%s\n" "${samples[@]}" | xargs -n 1 -P 4 -I{} bash -c 'aviary recover \
 --longreads DNAseq/longreads/{}.fastq.gz \
