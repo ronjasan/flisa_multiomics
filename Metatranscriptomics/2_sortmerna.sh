@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # SortMeRNA
-samples=("S1C30" "S1C40" "S1PELW" "S1Glc" "S2C30" "S2C40" "S2PELW" "S2Glc")
+samples=("S1C30" "S1C40" "S1LMWPE" "S1Glc" "S2C30" "S2C40" "S2LMWPE" "S2Glc")
 reps=("1" "2" "3")
 
 for sample in "${samples[@]}"

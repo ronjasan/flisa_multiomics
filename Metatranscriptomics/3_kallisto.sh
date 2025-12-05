@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Kallisto
-samples=("S1C30" "S1C40" "S1PELW" "S2C30" "S2C40" "S2PELW")
+samples=("S1C30" "S1C40" "S1LMWPE" "S2C30" "S2C40" "S2LMWPE")
 reps=("1" "2" "3")
 index=RNAseq/kallisto/idx
 output=RNAseq/kallisto/results

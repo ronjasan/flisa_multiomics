@@ -1,6 +1,6 @@
 library(tidyverse)
 
-samples <- c("S1C30", "S2C30", "S1C40", "S2C40", "S1PELW", "S2PELW")
+samples <- c("S1C30", "S2C30", "S1C40", "S2C40", "S1LMWPE", "S2LMWPE")
 
 # Read bin info
 for (sample in samples) {
@@ -10,7 +10,7 @@ for (sample in samples) {
     assign(paste0(sample, "_bins"), bins, envir = .GlobalEnv)
 }
 
-all_bins <- rbind(S1C30_bins, S2C30_bins, S1C40_bins, S2C40_bins, S1PELW_bins, S2PELW_bins)
+all_bins <- rbind(S1C30_bins, S2C30_bins, S1C40_bins, S2C40_bins, S1LMWPE_bins, S2LMWPE_bins)
 
 # Create new MAG names
 new_names <- all_bins %>%

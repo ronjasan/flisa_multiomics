@@ -1,6 +1,6 @@
 library(tidyverse)
 
-samples <- c("S1C30", "S2C30", "S1C40", "S2C40", "S1PELW", "S2PELW")
+samples <- c("S1C30", "S2C30", "S1C40", "S2C40", "S1LMWPE", "S2LMWPE")
 
 # Combine KEGG, DRAM, t-test and kallisto data for each sample
 for (sample in samples) {

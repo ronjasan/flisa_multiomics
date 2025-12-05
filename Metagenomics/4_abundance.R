@@ -5,7 +5,7 @@ library(data.table)
 library(cowplot)
 library(readxl)
 
-samples <- c("S1C30", "S2C30", "S1C40", "S2C40", "S1PELW", "S2PELW")
+samples <- c("S1C30", "S2C30", "S1C40", "S2C40", "S1LMWPE", "S2LMWPE")
 
 for (sample in samples) {
     bins <- read_delim(paste0("/glittertind/home/ronjasan/spaceface/flisa/DNAseq/aviary/", sample, "/bins/bin_info.tsv")) %>%
@@ -23,8 +23,8 @@ for (sample in samples) {
     assign(paste0(sample, "_bins"), bins, envir = .GlobalEnv)
 }
 
-all_bins <- rbind(S1PELW_bins, S2PELW_bins, S1C30_bins, S2C30_bins, S1C40_bins, S2C40_bins) %>%
-    mutate(community = fct_relevel(community, c("S1PELW", "S2PELW", "S1C30", "S2C30", "S1C40", "S2C40"))) %>%
+all_bins <- rbind(S1LMWPE_bins, S2LMWPE_bins, S1C30_bins, S2C30_bins, S1C40_bins, S2C40_bins) %>%
+    mutate(community = fct_relevel(community, c("S1LMWPE", "S2LMWPE", "S1C30", "S2C30", "S1C40", "S2C40"))) %>%
     relocate(abundance, .after = species) %>%
     filter(MIMAG != "Low quality")
 

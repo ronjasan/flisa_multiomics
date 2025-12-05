@@ -1,6 +1,6 @@
 library(tidyverse)
 library(rstatix)
-samples <- c("S1C30", "S2C30", "S1C40", "S2C40", "S1PELW", "S2PELW")
+samples <- c("S1C30", "S2C30", "S1C40", "S2C40", "S1LMWPE", "S2LMWPE")
 
 # Read and concatenate the kallisto .tsv files
 for (sample in samples) {
@@ -46,7 +46,7 @@ for (sample in samples) {
         mutate(Condition = case_when(
             str_detect(Sample, "C30") ~ "C30",
             str_detect(Sample, "C40") ~ "C40",
-            str_detect(Sample, "PE") ~ "PELW",
+            str_detect(Sample, "PE") ~ "LMWPE",
             str_detect(Sample, "Glc") ~ "Glc",
         )) %>%
         mutate(replicate = str_extract(Sample, "[0-9]$")) %>%
